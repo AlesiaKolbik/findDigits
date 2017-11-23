@@ -18,7 +18,7 @@ public class Main {
             for(int j=1;j<=inputNum;j++) {
                 powSumDigit=(int) Math.pow(sumDigit,j);
                 if (powSumDigit == i) {    //если сумма цифр числа в степени n равна заданному числу выводим его
-                    System.out.println(i + " ");
+                    System.out.println(i + " ^ "+j+" ="+powSumDigit);
                     break;
                 }
             }
